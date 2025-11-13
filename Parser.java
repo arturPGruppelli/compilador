@@ -65,6 +65,10 @@ class Parser{
 				return new Soma(null,null);
 			case MULT:
 				return new Mult(null,null);
+			case SUB:
+				return new Sub(null,null);// --2--
+			case DIV:
+				return new Div(null,null);// --2--
 			default: 
 		}
 		return null;
